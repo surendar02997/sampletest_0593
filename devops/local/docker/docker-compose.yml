@@ -101,7 +101,7 @@ services:
     image: SystemEntry-0593
     container_name: SystemEntry-0593
     ports: 
-      - 8016:8016
+      - 8019:8019
     env_file: .env
     depends_on:
       - mongo
@@ -111,7 +111,7 @@ services:
     image: sampletest-0593
     container_name: sampletest-0593
     ports: 
-      - 8017:8017
+      - 8020:8020
     env_file: .env
     depends_on:
       - mongo
